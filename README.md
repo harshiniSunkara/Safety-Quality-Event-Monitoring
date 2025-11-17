@@ -143,7 +143,7 @@ The system follows a production-style data engineering + BI analytics pipeline:
 ### **1. Overall Safety Event Summary**
 ![Overall Dashboard](/dashboard_powerBI/images/summary.png)
 ### **2. Root Cause & Subsystem Analysis**
-![Root Cause Analysis](images/root_cause_analysis.png)
+![Root Cause Analysis](/dashboard_powerBI/images/rootcause_subsystem_analysis.png)
 ### **3. Phase of Flight Risk Dashboard**
 ![Phase of flight Risk Dashboard](/dashboard_powerBI/images/phase-of-flight-risk.png)
 ---
