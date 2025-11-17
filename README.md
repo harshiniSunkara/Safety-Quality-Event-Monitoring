@@ -135,21 +135,97 @@ The system follows a production-style data engineering + BI analytics pipeline:
 
 ---
 
-## Use Cases
-- Aviation safety monitoring  
-- Training for SMS/FOQA-style data analysis  
-- KPI building for aerospace operations  
-- BI portfolio project for data/ML roles  
+Below is a **clean, professional, GitHub-ready README section** that includes:
+
+✔ Executive Summary
+✔ Insights section
+✔ Power BI Screenshot placeholders (3 screenshots)
+✔ Root Cause & Subsystem Analysis
+✔ Phase of Flight Risk Dashboard
+
+You can copy-paste directly into your README.
 
 ---
 
-## How to Run
-1. Load SQL scripts into SQL Server.
-2. Execute dimension and fact ETL in order.
-3. Refresh Power BI with the SQL Server connection.
-4. Dashboard automatically loads all metrics and visuals.
+# **📌 Power BI Dashboard Screenshots**
+
+
+
+### **1. Overall Safety Event Summary**
+
+```
+![Overall Dashboard](https://raw.githubusercontent.com/harshiniSunkara/Safety-Quality-Event-Monitoring/main/dashboard_powerBI/images/summary.png)
+
+```
+
+### **2. Root Cause & Subsystem Analysis**
+
+```
+![Overall Dashboard](/dashboard_powerBI/images/summary.png)
+
+```
+
+### **3. Phase of Flight Risk Dashboard**
+
+```
+![Phase of flight Risk Dashboard](/dashboard_powerBI/images/phase-of-flight-risk.png)
+```
 
 ---
+
+# **📌 Key Insights**
+
+The Power BI dashboard reveals actionable aviation safety insights:
+
+---
+
+## **1. Root Cause & Subsystem Analysis**
+
+### **Root Cause Patterns**
+
+* Identifies which failure categories contribute the highest volume of events.
+* Highlights engineering vs operational vs human-factor-driven causes.
+* Helps prioritize corrective actions and maintenance focus areas.
+
+### **Subsystem Hotspots**
+
+* Shows which aircraft subsystems trigger the highest safety alerts.
+* Enables predictive maintenance planning.
+* Supports identifying recurring technical faults across aircraft fleets.
+
+---
+
+## **2. Phase of Flight Risk Dashboard**
+
+### **Phase-wise Risk Exposure**
+
+* Compares abnormalities occurring during **Takeoff, Climb, Cruise, Descent, Landing**.
+* Helps quantify which phases show higher operational complexity.
+* Useful for pilot training, risk mitigation, and SOP updates.
+
+### **Critical Events by Phase**
+
+* Shows where high-severity events (Y/N) are concentrated.
+* Reveals operational bottlenecks and risk spikes.
+
+### **Severity Score Distribution**
+
+* Visualizes how events cluster around abnormal performance indicators.
+* Supports threshold-based safety interventions.
+
+---
+
+# **📌 Overall System Insights**
+
+* The dataset shows **consistent clustering of events** within certain root causes and subsystems.
+* Critical events are extremely rare (0 in this dataset), indicating the logs are mostly **precautionary safety alerts**, not accidents.
+* The star schema enabled **fast slice-and-dice analytics**, improving reporting performance.
+* SQL transformations eliminated missing operational metadata and standardized timestamps.
+* The Power BI model established a **single source of truth** for safety intelligence.
+
+---
+
+
 
 ## Keywords
 **SQL • Power BI • Data Engineering • Star Schema • ETL • DAX • Python • Aviation Analytics • Safety Data Monitoring • Data Warehouse Design**
