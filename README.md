@@ -135,42 +135,17 @@ The system follows a production-style data engineering + BI analytics pipeline:
 
 ---
 
-Below is a **clean, professional, GitHub-ready README section** that includes:
-
-✔ Executive Summary
-✔ Insights section
-✔ Power BI Screenshot placeholders (3 screenshots)
-✔ Root Cause & Subsystem Analysis
-✔ Phase of Flight Risk Dashboard
-
-You can copy-paste directly into your README.
-
----
 
 # **📌 Power BI Dashboard Screenshots**
 
 
 
 ### **1. Overall Safety Event Summary**
-
-```
-![Overall Dashboard](https://raw.githubusercontent.com/harshiniSunkara/Safety-Quality-Event-Monitoring/main/dashboard_powerBI/images/summary.png)
-
-```
-
-### **2. Root Cause & Subsystem Analysis**
-
-```
 ![Overall Dashboard](/dashboard_powerBI/images/summary.png)
-
-```
-
+### **2. Root Cause & Subsystem Analysis**
+![Root Cause Analysis](images/root_cause_analysis.png)
 ### **3. Phase of Flight Risk Dashboard**
-
-```
 ![Phase of flight Risk Dashboard](/dashboard_powerBI/images/phase-of-flight-risk.png)
-```
-
 ---
 
 # **📌 Key Insights**
